@@ -1,0 +1,4 @@
+backend:
+  name: bitbucket
+  repo: simonhermann/mx-jekyll # Path to your Github repository
+  branch: master # Branch to update
