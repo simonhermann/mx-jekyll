@@ -3,6 +3,7 @@ layout: post
 title:  "Welcome!"
 date:   2017-02-12 21:03:41 +0100
 categories: jekyll update
+rating: 5
 ---
 HALLO und guten Tag!
 
