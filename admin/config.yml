@@ -24,21 +24,26 @@ collections:
     slug: "{{slug}}" # Filename template i.e. YYYY-MM-DD-title.md
     # slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template i.e. YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
-      - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
 
   - name: "pages"
     label: "Pages"
     files:
+      - name: "about"
+        label: "About"
+        file: "about.md"
+        description: "General Site Settings"
+        fields: # The fields for each document, usually in front matter
+          - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
       - name: "vita"
         label: "Vita"
         file: "vita.md"
         description: "General Site Settings"
-        fields:
-          - {label: "Global title", name: "site_title", widget: "string"}
-          - label: "Post Settings"
-            name: posts
-            widget: "object"
-            fields:
-              - {label: "Description", name: "description", widget: "markdown"}
+        fields: # The fields for each document, usually in front matter
+          - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
