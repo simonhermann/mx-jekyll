@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Vita
 permalink: /vita/
+title: Vita
 ---
 
-my vita....
+my vita.... asdas duansd aunsd asdasd
