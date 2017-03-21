@@ -4,4 +4,6 @@ permalink: /vita/
 title: Vita
 ---
 
-my vita.... asdas duansd aunsd asdasd
+## Feedback on Netlify CMS
+
+- Sidebar should not hide all the time, when theres plenty of space to show it.
